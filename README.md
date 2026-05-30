@@ -15,6 +15,7 @@
   - [Conclusion](#conclusion)
   - [Repository Structure & Usage](#repository-structure--usage)
   - [Dependencies](#dependencies)
+  - [Acknowledgments](#acknowledgments)
   - [Contact](#contact)
 
 
@@ -197,6 +198,10 @@ Key Python libraries used in this project:
 - `scikit-learn`
 - `joblib`
 - `xgboost`
+
+### Acknowledgments
+
+This project was developed for GEOL0069 (Artificial Intelligence For Earth Observation) 2025/2026 at UCL, led by the module team: Dr Michel Tsamados, Weibin Chen, and Shambhu Bhandari Sharma.
 
 ## Contact
 
