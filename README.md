@@ -61,6 +61,8 @@ This is a comprehensive workflow diagram illustrating the entire project pipelin
 
 <img width="1990" height="285" alt="image" src="https://github.com/user-attachments/assets/e10e725c-9e0e-4ff3-9906-32032c74e103" />
 
+Explanation:
+This figure provides a detailed view of individual or combined SAR bands (VV, VH, VV/VH). It highlights how SAR data captures surface roughness and structure that are invisible or obscured in optical imagery, especially under cloudy conditions. The VV/VH ratio band is particularly useful for enhancing contrast between different land cover types such as water, vegetation, and urban areas.
 
 4.  **CRS Consistency Check**: Ensures spatial consistency between raster and vector data.
 5.  **Feature Extraction**: Pixel values for all 7 bands are extracted at each sample point and appended to the GeoDataFrame. NaN values in features are filled with 0.
