@@ -10,6 +10,7 @@
   - [Limitations](#limitations)
   - [Key Findings & Model Performance](#key-findings--model-performance)
   - [Environmental Cost Assessment](#environmental-cost-assessment)
+  - [Future Work](#future work)
   - [Repository Structure & Usage](#repository-structure--usage)
   - [Dependencies](#dependencies)
 
@@ -115,6 +116,14 @@ Project Highlights & Achievements
 An assessment of the environmental cost of this remote sensing and AI research project primarily revolves around the energy consumption associated with computational resources and data storage. The extensive use of Google Earth Engine (GEE) for acquiring and pre-processing large volumes of satellite imagery and Google Colab for machine learning model training and inference entails significant energy expenditure in Google's global data centers. These operations—including complex geospatial computations, multi-gigabyte data transfers, feature extraction, and iterative training of multiple algorithms—demand substantial computational power. Additionally, storing the numerous input datasets and generated outputs on Google Drive contributes to ongoing energy consumption for maintaining server infrastructure and cooling systems.
 
 However, these costs are contextualized by Google's commitment to powering its operations with 100% renewable energy and its highly energy-efficient data centers. This results in a significantly lower environmental footprint per unit of computation compared to less optimized local hardware. More importantly, the environmental benefits derived from the research findings can substantially outweigh its computational costs. Accurate and up-to-date Land Cover and Land Use (LCLU) maps, a direct output of this project, are indispensable tools for sustainable urban planning, natural resource management, climate change monitoring, and biodiversity conservation. By providing granular and precise spatial information, this research empowers decision-makers to implement more informed and effective environmental policies, thereby contributing to broader ecological sustainability and potentially mitigating much larger environmental harms than the project itself incurs.
+
+### Future Work
+
+- Expand to more detailed land use categories and multi-year analysis.
+- Incorporate additional data sources (e.g., Sentinel-3, Landsat, or night-time lights).
+- Experiment with deep learning models (CNNs, Transformers) for end-to-end classification.
+- Improve model generalization through domain adaptation techniques.
+- Deploy the classified map as an interactive web application (e.g., using Google Earth Engine or Streamlit).
 
 ### Repository Structure & Usage
 - `download_image_from_gee.js`: This JavaScript file contains the Google Earth Engine (GEE) code used to export the combined Sentinel-1 and Sentinel-2 image (`beijing_s1_s2_combined_2024.tif`) and the label points (`label_points_2024.shp`). You should run this script in the GEE Code Editor to generate the necessary data.
