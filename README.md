@@ -11,6 +11,7 @@
   - [Key Findings & Model Performance](#key-findings--model-performance)
   - [Environmental Cost Assessment](#environmental-cost-assessment)
   - [Future Work](#future-work)
+  - [Conclusion](#conclusion)
   - [Repository Structure & Usage](#repository-structure--usage)
   - [Dependencies](#dependencies)
 
@@ -124,6 +125,11 @@ However, these costs are contextualized by Google's commitment to powering its o
 - Experiment with deep learning models (CNNs, Transformers) for end-to-end classification.
 - Improve model generalization through domain adaptation techniques.
 - Deploy the classified map as an interactive web application (e.g., using Google Earth Engine or Streamlit).
+
+### Conclusion
+This project successfully demonstrated the effectiveness of integrating Sentinel-1 SAR and Sentinel-2 optical data for Land Cover and Land Use (LCLU) classification in a complex urban environment like Beijing. By fusing complementary information from both sensors and applying advanced machine learning algorithms, we achieved promising results with overall accuracy exceeding 82% using ensemble methods such as Gradient Boosting and Random Forest.
+The study highlights the critical role of SAR data — particularly the VH polarization band — in improving classification robustness under cloudy conditions. This multi-source approach not only overcomes the limitations of traditional optical-only methods but also provides a more reliable foundation for monitoring dynamic land surface changes.
+Future improvements in deep learning and multi-temporal analysis will further enhance the accuracy and applicability of such systems.
 
 ### Repository Structure & Usage
 - `download_image_from_gee.js`: This JavaScript file contains the Google Earth Engine (GEE) code used to export the combined Sentinel-1 and Sentinel-2 image (`beijing_s1_s2_combined_2024.tif`) and the label points (`label_points_2024.shp`). You should run this script in the GEE Code Editor to generate the necessary data.
