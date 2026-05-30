@@ -105,13 +105,9 @@ Key Python libraries used in this project:
 
 ## Contact
 
-**Author**: Maral Nikkhah  
-**Email**: maral.nikkhah.21@ucl.ac.uk  
+**Author**: Keji Cao  
+**Email**: zcfbkca@ucl.ac.uk  
 **Institution**: University College London  
-**Course**: GEOL0069 - AI for Earth Observation  
+**Course**: GEOL0069 
 
-## Acknowledgments
 
-This project was created for GEOL0069 at University College London, taught by Dr. Michel Tsamados and Weibin Chen. Special thanks for their guidance and teaching.
-
----
