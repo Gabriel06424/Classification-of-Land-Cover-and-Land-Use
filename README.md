@@ -10,7 +10,7 @@
   - [Limitations](#limitations)
   - [Key Findings & Model Performance](#key-findings--model-performance)
   - [Environmental Cost Assessment](#environmental-cost-assessment)
-  - [Future Work](#future work)
+  - [Future Work](#future-work)
   - [Repository Structure & Usage](#repository-structure--usage)
   - [Dependencies](#dependencies)
 
