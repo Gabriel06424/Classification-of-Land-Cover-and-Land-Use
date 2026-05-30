@@ -94,6 +94,13 @@ This horizontal bar chart displays the importance ranking of the 7 input feature
   - **SVM**: Showed the lowest performance (Accuracy: **0.6494**, Kappa: **0.5325**), likely due to convergence issues without explicit data scaling.
 - **Feature Importance**: For the combined-band Random Forest model, **VH polarization, Red (B4), VV/VH ratio, and Near Infrared (B8)** were identified as the most important features. This highlights the crucial role of both SAR's sensitivity to structural properties and optical bands' spectral information.
 
+Project Highlights & Achievements
+- Successfully fused **Sentinel-1 SAR** and **Sentinel-2 Optical** data, effectively overcoming cloud cover issues during Beijing’s rainy season.
+- Achieved **Overall Accuracy of 0.8294** (Random Forest) and **0.8256** (GBDT) — strong performance for a complex urban-rural mixed area.
+- Demonstrated the high importance of **VH polarization** in land cover classification through feature importance analysis.
+- Generated a high-resolution (10m) wall-to-wall land cover map for Beijing (June–August 2024).
+- Provided open data, code, and detailed documentation to promote reproducibility in remote sensing research.
+
 ### Environmental Cost Assessment
 An assessment of the environmental cost of this remote sensing and AI research project primarily revolves around the energy consumption associated with computational resources and data storage. The extensive use of Google Earth Engine (GEE) for acquiring and pre-processing large volumes of satellite imagery and Google Colab for machine learning model training and inference entails significant energy expenditure in Google's global data centers. These operations—including complex geospatial computations, multi-gigabyte data transfers, feature extraction, and iterative training of multiple algorithms—demand substantial computational power. Additionally, storing the numerous input datasets and generated outputs on Google Drive contributes to ongoing energy consumption for maintaining server infrastructure and cooling systems.
 
