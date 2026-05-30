@@ -7,6 +7,7 @@
   - [Study Area](#study-area)
   - [Data Sources & Preprocessing](#data-sources--preprocessing)
   - [Methodology](#methodology)
+  - [Limitations](#limitations)
   - [Key Findings & Model Performance](#key-findings--model-performance)
   - [Environmental Cost Assessment](#environmental-cost-assessment)
   - [Repository Structure & Usage](#repository-structure--usage)
@@ -83,7 +84,7 @@ This is a side-by-side comparison showing the original RGB composite image (left
 Explanation:
 This horizontal bar chart displays the importance ranking of the 7 input features (B2, B3, B4, B8, VV, VH, VV_VH) from the Random Forest model. VH polarization ranks highest, followed by Red band (B4) and VV/VH ratio. This highlights the critical contribution of SAR data (especially VH) in improving classification accuracy when combined with optical bands.
 
-Limitations
+### Limitations
 
 - Limited to **four broad land cover classes** (Water, Vegetation, Urban, Barren). More detailed subclasses (e.g., cropland types, building density) were not included.
 - Sample points (8000) may have spatial autocorrelation; future work could use more rigorous sampling strategies.
