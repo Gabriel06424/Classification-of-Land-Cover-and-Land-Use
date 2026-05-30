@@ -49,6 +49,8 @@ As the image file is quite large, we have saved it to Drive, where anyone can ac
 #### Integrated Sentinel-1 & Sentinel-2 Data for Land Cover Classification Workflow
 <img width="1448" height="1086" alt="image" src="https://github.com/user-attachments/assets/6032e689-9db6-46f4-b2e3-94e2ed8981e9" />
 
+Explanation:
+This is a comprehensive workflow diagram illustrating the entire project pipeline. It shows the integration of Sentinel-2 optical data and Sentinel-1 SAR data, followed by data preprocessing in Google Earth Engine (GEE), feature extraction at labeled sample points, machine learning model training (RF, SVM, GBDT, XGBoost), full-image classification, and final visualization. The diagram clearly demonstrates the multi-source data fusion approach and the end-to-end process from raw satellite imagery to the final land cover map.
 
 1.  **Data Acquisition & Export**: Satellite imagery is acquired and preprocessed using GEE (code for GEE export is provided as `download_image_from_gee.js`). Label points (`label_points_2024.shp`) are also exported from GEE.
 2.  **Mount Google Drive**: The Colab environment is connected to Google Drive to access exported data from the `GEE_Exports` folder.
