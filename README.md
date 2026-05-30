@@ -80,6 +80,9 @@ This is a side-by-side comparison showing the original RGB composite image (left
 11. **Feature Importance Analysis**: Feature importance is calculated and visualized for the Random Forest model to understand the contribution of each band.
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/664c80a1-781e-4a21-a891-b5f1520fe0a7" />
 
+Explanation:
+This horizontal bar chart displays the importance ranking of the 7 input features (B2, B3, B4, B8, VV, VH, VV_VH) from the Random Forest model. VH polarization ranks highest, followed by Red band (B4) and VV/VH ratio. This highlights the critical contribution of SAR data (especially VH) in improving classification accuracy when combined with optical bands.
+
 ### Key Findings & Model Performance
 <img width="1589" height="690" alt="image" src="https://github.com/user-attachments/assets/b2893321-8523-47d2-87c6-0a7fa746abbd" />
 
