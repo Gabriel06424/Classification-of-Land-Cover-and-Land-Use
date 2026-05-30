@@ -73,6 +73,9 @@ This figure provides a detailed view of individual or combined SAR bands (VV, VH
 8.  **Full-Image Classification**: The best-performing model (or a selected model like Random Forest) is used to classify the entire `beijing_s1_s2_combined_2024.tif` raster, and the resulting classified map is saved as `beijing_landcover_classified.tif`.
 <img width="1990" height="643" alt="image" src="https://github.com/user-attachments/assets/af61581b-f0e3-4651-a1ca-8023f2b54bfc" />
 
+Explanation:
+This is a side-by-side comparison showing the original RGB composite image (left) and the final classified land cover map (right). The classified map uses different colors to represent four classes: Water (blue), Vegetation (green), Urban (red/purple), and Barren (yellow/brown). It demonstrates the model’s ability to produce a coherent, high-resolution land cover map across the entire Beijing area, with good performance in distinguishing major land types.
+
 10.  **Visualization & Comparison**: The classified map is visualized alongside the original RGB composite for visual assessment. A confusion matrix is also generated.
 11. **Feature Importance Analysis**: Feature importance is calculated and visualized for the Random Forest model to understand the contribution of each band.
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/664c80a1-781e-4a21-a891-b5f1520fe0a7" />
