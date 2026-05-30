@@ -22,7 +22,8 @@ Furthermore, the project applies and rigorously compares advanced machine learni
 
 ### Study Area
 The study area is **Beijing, China's capital city**. Beijing is a megacity in the North China Plain, characterized by extensive urban sprawl, vast agricultural lands, forested mountains, and a network of rivers and reservoirs. This diverse landscape makes it an ideal and challenging region for remote sensing analysis. The data acquisition period was **June to August 2024**, corresponding to the peak growing season, which offers distinct spectral and structural signatures for classification. The choice of this period, often accompanied by frequent cloud cover, further underscores the necessity of integrating SAR data.
-*** Study Area Visualization & Interpretation
+
+Study Area Visualization & Interpretation
 The study area image (embedded in the notebook) shows Beijing's diverse landscape:
 - **North and West**: Forested mountains (high vegetation).
 - **Central/East**: Dense urban areas (built-up).
