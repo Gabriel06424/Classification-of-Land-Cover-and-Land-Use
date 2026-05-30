@@ -85,7 +85,7 @@ However, these costs are contextualized by Google's commitment to powering its o
 
 ### Repository Structure & Usage
 - `download_image_from_gee.js`: This JavaScript file contains the Google Earth Engine (GEE) code used to export the combined Sentinel-1 and Sentinel-2 image (`beijing_s1_s2_combined_2024.tif`) and the label points (`label_points_2024.shp`). You should run this script in the GEE Code Editor to generate the necessary data.
-- `land_cover_classification.ipynb` (or similar name for this Colab notebook): This notebook guides you through the entire machine learning workflow, from data loading to model evaluation and full-image classification.
+- `Classification-of-Land-Cover-and-Land-Use.ipynb` : This notebook guides you through the entire machine learning workflow, from data loading to model evaluation and full-image classification.
 
 **To run this project:**
 1.  **Download Data from GEE**: Open `download_image_from_gee.js` in the Google Earth Engine Code Editor, execute it, and export the `beijing_s1_s2_combined_2024.tif` and `label_points_2024.shp` files to your Google Drive.
