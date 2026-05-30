@@ -80,6 +80,9 @@ This is a side-by-side comparison showing the original RGB composite image (left
 11. **Feature Importance Analysis**: Feature importance is calculated and visualized for the Random Forest model to understand the contribution of each band.
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/664c80a1-781e-4a21-a891-b5f1520fe0a7" />
 
+Explanation:
+This bar chart compares the performance of four machine learning models (Random Forest, SVM, GBDT, XGBoost) using Overall Accuracy and Cohen’s Kappa coefficient. GBDT and Random Forest show the best results, while SVM performs the worst. The chart visually confirms the superiority of ensemble learning methods for this complex remote sensing classification task.
+
 ### Key Findings & Model Performance
 <img width="1589" height="690" alt="image" src="https://github.com/user-attachments/assets/b2893321-8523-47d2-87c6-0a7fa746abbd" />
 
